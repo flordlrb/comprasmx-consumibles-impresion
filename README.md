@@ -64,6 +64,18 @@ El dashboard permite analizar aspectos como:
 
 Información pública disponible a través de **ComprasMX**.
 
+## Principales hallazgos
+
+- Dentro del conjunto de datos analizado, el **Instituto Mexicano del Seguro Social (IMSS)** es la dependencia con mayor número de procedimientos relacionados con la adquisición de tóner y consumibles de impresión.
+
+- Las entidades federativas con mayor número de procedimientos identificados son **Ciudad de México, Jalisco y Nuevo León**, mostrando una mayor concentración de oportunidades de contratación en estas entidades.
+
+- Al analizar específicamente los procedimientos publicados por el **IMSS**, se observa que la **Licitación Pública** es la modalidad de contratación utilizada con mayor frecuencia.
+
+- En el análisis general, predominan los procedimientos de **carácter nacional**. Desde una perspectiva comercial, esta información puede utilizarse para evaluar la compatibilidad del origen de las marcas comercializadas con los requisitos de participación e identificar procedimientos internacionales que puedan representar nuevas oportunidades de negocio.
+
+- En **2025**, abril registró el mayor número de procedimientos. Posteriormente se observa un nuevo incremento hacia los últimos meses del año, que se mantiene hasta febrero de 2026. Durante **2026**, la actividad vuelve a mostrar un incremento en mayo.
+
 ## Autor
 **Flor De La Rosa Baez**
 
