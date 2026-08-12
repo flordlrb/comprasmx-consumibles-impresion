@@ -15,14 +15,38 @@ Transformar información pública de contrataciones gubernamentales en datos est
 - Excel
 - ComprasMX
 
-## Proceso de trabajo
-1. Recopilación de archivos provenientes de ComprasMX.
-2. Integración de múltiples bases de datos mediante Power Query.
-3. Limpieza y transformación de la información.
-4. Homologación de campos y tipos de datos.
-5. Filtrado de procedimientos relacionados con consumibles de impresión.
-6. Creación de indicadores y análisis en Power BI.
-7. Desarrollo de dashboard para visualizar los principales resultados.
+## Proceso de limpieza y transformación
+
+El conjunto de datos original se obtuvo a partir de información pública disponible en ComprasMX correspondiente al periodo de enero de 2025 a julio de 2026.
+
+### 1. Integración de datos
+Se recopilaron 73 archivos en formato Excel y se consolidaron mediante Power Query para generar una única base de datos.
+
+### 2. Limpieza y transformación
+Se realizó la revisión y depuración de la información, incluyendo:
+
+- Eliminación de columnas no relevantes para el análisis.
+- Corrección y homologación de tipos de datos.
+- Tratamiento de valores nulos.
+- Homologación de categorías y nombres.
+- Validación de fechas.
+- Revisión de registros duplicados.
+
+### 3. Identificación de procedimientos relevantes
+Se creó una regla de clasificación mediante Power Query para identificar procedimientos relacionados con consumibles de impresión utilizando palabras clave como:
+
+- Tóner
+- Cartucho
+- 372
+
+Posteriormente se realizó una validación de los resultados para detectar y excluir falsos positivos.
+
+Por ejemplo, algunos procedimientos contenían la palabra "cartucho", pero correspondían a consumibles utilizados en equipos de codificación industrial y no a consumibles de impresión incluidos en el alcance del análisis.
+
+Después del proceso de limpieza, clasificación y validación se obtuvo un conjunto final de **165 procedimientos**, correspondientes a **29 dependencias** y **28 entidades federativas**.
+
+### 4. Análisis y visualización
+La información depurada fue utilizada para desarrollar un dashboard en Power BI enfocado en identificar patrones geográficos, institucionales, temporales y de modalidad de contratación.
 
 ## Análisis realizado
 El dashboard permite analizar aspectos como:
