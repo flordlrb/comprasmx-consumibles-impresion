@@ -56,6 +56,10 @@ El dashboard permite analizar aspectos como:
 - Distribución de procedimientos por periodo.
 - Comparación de tendencias entre diferentes periodos.
 
+## Dashboard
+
+![Dashboard de Contrataciones Públicas](Dashboard.jpg)
+
 ## Fuente de datos
 
 Información pública disponible a través de **ComprasMX**.
